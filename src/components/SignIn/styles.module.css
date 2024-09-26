@@ -1,0 +1,91 @@
+.authMain{
+    top: 15%;
+    left: 25%;
+    height: 90%;
+    width: 50%;
+    position: absolute;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 5%;
+    opacity: 0.8;
+}
+.immg img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: -1;    
+}
+.signInMain{
+    top: 15%;
+    height:60%;
+    width: 60%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    color: white;
+}
+.signInHeader{
+    margin-bottom: 15%;
+    align-self: center;
+    padding: 3%;
+    border-radius: 25%;
+    background-color: #753422;
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    width: 250px;
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    font-family: 'Sanchez', serif;
+    color: white;
+    margin-top: 15%;
+}
+.login{
+    padding-top: 5%;
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    align-self: center;
+    padding-bottom: 10%;
+    color: #753422;
+}
+.form input{
+    border-radius: 20%;
+}
+.login button{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Alice', serif;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #e3ae9f;
+    border-color: #e3ae9f;
+    color: #572619; 
+    border-radius: 25%;
+}
+.signInlog, .signInReg{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Sanchez', serif;
+    font-size: 20px;
+    
+    
+}
